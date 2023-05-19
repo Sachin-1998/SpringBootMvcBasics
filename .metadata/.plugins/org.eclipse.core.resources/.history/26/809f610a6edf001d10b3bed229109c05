@@ -1,0 +1,24 @@
+package com.dt.controller;
+
+import java.time.LocalDateTime;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class DataOperationController 
+{
+	@GetMapping("/data")
+	public String process(Map<String, Object> map)
+	{
+		System.out.println("DataOperationController.process()"+map.getClass());
+		//add model attribute to shared memory
+		map.put("attr1", "value1");
+		map.put("SysDate", LocalDateTime.now());
+		//return lvn name
+		return "show_data";
+		
+	}
+
+}

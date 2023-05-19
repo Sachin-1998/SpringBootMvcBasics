@@ -1,0 +1,4 @@
+<%@ page isELIgnored="false"%>
+
+<h1>Student Result:: ${Grades}</h1><br>
+<a href="./">Home</a>

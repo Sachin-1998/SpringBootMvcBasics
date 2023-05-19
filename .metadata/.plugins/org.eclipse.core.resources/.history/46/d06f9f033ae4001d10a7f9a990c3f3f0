@@ -1,0 +1,7 @@
+
+# view component
+spring.mvc.view.prefix=/WEB-INF/Pages/
+spring.mvc.view.suffix=.jsp
+
+#embedded tomcat server port
+server.port=4043

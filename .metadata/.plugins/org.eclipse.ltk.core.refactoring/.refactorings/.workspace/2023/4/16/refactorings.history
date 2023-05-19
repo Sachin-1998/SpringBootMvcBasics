@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.nit&apos; to &apos;MVC-FrontController-JEE&apos;" description="Rename resource &apos;com.nit&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.nit" name="MVC-FrontController-JEE" stamp="1681733091445" updateReferences="true"/>
+</session>

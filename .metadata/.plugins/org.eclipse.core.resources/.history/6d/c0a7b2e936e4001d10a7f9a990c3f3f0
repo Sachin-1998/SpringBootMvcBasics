@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BootMvc-Proj4-DataBinding-FormBinding">
+        <property name="context-root" value="BootMvc-Proj4-DataBinding-FormBinding"/>
+    </wb-module>
+</project-modules>

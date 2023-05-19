@@ -1,0 +1,8 @@
+127.0.0.1 - - [25/Apr/2023:16:58:31 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [25/Apr/2023:16:58:32 +0530] "GET /BootMvc-Proj-2-DataRendering/ HTTP/1.1" 404 275
+127.0.0.1 - - [25/Apr/2023:16:58:37 +0530] "GET /BootMvc-Proj-2-DataRendering/data HTTP/1.1" 200 126
+127.0.0.1 - - [25/Apr/2023:16:58:44 +0530] "GET /BootMvc-Proj-2-DataRendering/simple HTTP/1.1" 200 106
+127.0.0.1 - - [25/Apr/2023:16:58:49 +0530] "GET /BootMvc-Proj-2-DataRendering/mydata HTTP/1.1" 500 287
+127.0.0.1 - - [25/Apr/2023:18:39:22 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [25/Apr/2023:18:39:23 +0530] "GET /BootMvc-Proj-2-DataRendering/ HTTP/1.1" 404 275
+127.0.0.1 - - [25/Apr/2023:18:39:29 +0530] "GET /BootMvc-Proj-2-DataRendering/getEmpData HTTP/1.1" 500 287

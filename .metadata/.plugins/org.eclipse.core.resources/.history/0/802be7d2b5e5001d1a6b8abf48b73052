@@ -1,0 +1,30 @@
+package com.nit.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class customerOpertionController {
+
+	@GetMapping("/data")
+	public String getData(@RequestParam("cno") int id, @RequestParam("cname") String name) {
+		System.out.println(id + " " + name);
+		return "show_data";
+	}
+
+	@GetMapping("/data1")
+	public String getData1(@RequestParam int cno, @RequestParam String cname) {
+		System.out.println(cno + " " + cname);
+		return "show_data";
+	}
+	
+	@GetMapping("/data2")
+	public String getData2(@RequestParam int cno, @RequestParam(required = false) String cname) {
+		System.out.println(cno + " " + cname);
+		return "show_data";
+	}
+	
+
+}

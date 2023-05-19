@@ -1,0 +1,17 @@
+package com.nit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class customerOpertionController {
+
+	@GetMapping("/data")
+	public String getData(@RequestParam("cno") int id,@RequestParam("cname") String name)
+	{
+		System.out.println(id+" "+name);
+		return "show_data";
+	}
+	
+}

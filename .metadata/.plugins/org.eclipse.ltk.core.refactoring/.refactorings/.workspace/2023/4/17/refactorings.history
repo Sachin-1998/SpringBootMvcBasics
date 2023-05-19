@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootMvc-Proj4-DataBinding-FormBindingUsingMvcTags&apos; to &apos;BootMvc-Proj5-DataBinding-FormBindingUsingMvcTags&apos;" description="Rename resource &apos;BootMvc-Proj4-DataBinding-FormBindingUsingMvcTags&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BootMvc-Proj4-DataBinding-FormBindingUsingMvcTags" name="BootMvc-Proj5-DataBinding-FormBindingUsingMvcTags" stamp="1682620101348" updateReferences="true"/>
+</session>
